@@ -1,6 +1,6 @@
 # Anime Recommendation System (Anime Advisor)
 
-A full stack web application that recommends you movies!
+A web application that recommends you animes!
 
 
 
