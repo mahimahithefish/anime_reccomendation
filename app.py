@@ -43,5 +43,5 @@ if st.button('Recommend anime✨'):
 
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.header(recc_titles[0])
+            st.text(recc_titles[0])
             st.image(recc_posters[0])
