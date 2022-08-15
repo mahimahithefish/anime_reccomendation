@@ -3,6 +3,7 @@
 This web app reccomends user with top 3 animes based on what they are currently watching. This reccomender system is based on the content-based filtering system where it attempts to guess what a user may like based on that user's activity. This type of filtering makes recommendations by using keywords and attributes assigned to objects in a database.
 
 ## Data Processing 
+Before cleaning the data we removed rows that contained empty or duplicated fields. After this step, we had approximately 15,000 animes. 
 ### Generating Tags
 In the dataset the following attributes were used to create tags for each anime: synoposis, genre. These two attributes were concatenated and cleaned. 
 ### Data Cleaning 
@@ -24,8 +25,14 @@ The Web app was created using the python stramlit library. This allowes for user
 </p>
 
 ## Libraries 
-- 
-
+- NumPy
+- Pandas
+- Re
+- NLTK
+- Gensim
+- sklearn
+- StreamLit
+- Pickle
 
 ## Resources
 - [Anime dataset w/ MyAnimeList Reviews](https://www.kaggle.com/datasets/marlesson/myanimelist-dataset-animes-profiles-reviews)
