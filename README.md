@@ -17,6 +17,11 @@ All the tags undergone stemming. Stemming is used to simplify each word in a sen
 ### Cosine Similarity 
 
 ## UI 
+The Web app was created using the python stramlit library. This allowes for user to type or select an anime that they are currently watching and will generate top 3 similar animes. 
+
+<p align="center">
+  <img width="400" height="600" src="https://github.com/mahimahithefish/anime_reccomendation/blob/main/images/Screen%20Shot%202022-08-14%20at%203.00.41%20PM.png" >
+</p>
 
 ## Libraries 
 - 
