@@ -1,10 +1,21 @@
 # Anime Recommendation System (Anime Advisor)
 
-A web application that recommends you animes!
+This web app reccomends user with top 3 animes based on what they are currently watching. This reccomender system is based on the content-based filtering system where it attempts to guess what a user may like based on that user's activity. This type of filtering makes recommendations by using keywords and attributes assigned to objects in a database.
 
+## Data Processing 
 
-To fire up the website
-`streamlit run app.py `
+### Data Cleaning 
+
+### Stemming 
+
+## Data Modeling 
+### Generating Tags
+
+### Vecorization 
+
+### Cosine Similarity 
+
+## UI 
 
 
 ## Resources
